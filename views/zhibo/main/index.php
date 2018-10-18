@@ -1,19 +1,22 @@
+
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Sinwa图片直播</title>
+	<title>hsky图片直播</title>
+    <base href="http://ws.local.com/">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta content="yes" name="apple-mobile-web-app-capable" />
 	<meta content="yes" name="apple-mobile-web-app-capable" />
 	<meta content="black" name="apple-mobile-web-app-status-bar-style" />
 	<meta content="telephone=no" name="format-detection" />
 	<meta content="email=no" name="format-detection" />
-	<link rel="stylesheet" type="text/css" href="./assert/css/reset.css" />
-	<link rel="stylesheet" type="text/css" href="./assert/css/main.css" />
-	<link rel="stylesheet" href="./assert/iconfont/iconfont.css">
-	<link rel="shortcut icon" href="./favicon.ico">
-	<script src="./assert/js/jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="./login/css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="./login/css/main.css" />
+	<link rel="stylesheet" href="./login/css/iconfont/iconfont.css">
+	<link rel="shortcut icon" href="./login/favicon.ico">
+	<script src="./login/js/jquery-3.3.1.min.js"></script>
 	<style>
 		.match > h2 {
 			font-size: 1.2rem;
@@ -91,7 +94,7 @@
 		<header class="header">
 			赛程
 			<!--用户处于登录状态时，将该按钮隐藏-->
-			<a href="./login.html">
+			<a href="../login/login.php">
 				<!-- <i class="icon iconfont icon-wode my"></i> -->
 				<span class="my">登录</span>
 			</a>
@@ -99,26 +102,27 @@
 		<div class="content">
 			<div class="match">
 				<h2>今天 3月13日 星期二</h2>
-				<a href="./detail.html">
+				<a href="./detail.php">
 					<div class="match-item">
 						<div class="match-item-info">
 							<div class="match-time">
 								08: 00
-								<img src="./imgs/match.png" width="25px" height="25px" />
+
+								<img src="./main/imgs/match.png" width="25px" height="25px" />
 							</div>
 							<div>NBA常规赛</div>
 						</div>
 						<div class="match-item-teams isLive">
 							<div>
 								<span>
-									<img src="./imgs/team1.png" width="25px" height="25px" />
+									<img src="./main/imgs/team1.png" width="25px" height="25px" />
 									马刺
 								</span>
 								<span>79</span>
 							</div>
 							<div>
 								<span>
-									<img src="./imgs/team2.png" width="25px" height="25px" />
+									<img src="./main/imgs/team2.png" width="25px" height="25px" />
 									火箭
 								</span>
 								<span>80</span>
@@ -134,25 +138,26 @@
 			<div class="match">
 				<h2>今天 3月14日 星期三</h2>
 
-				<a href="./detail.html">
+				<a href="./detail.php">
 					<div class="match-item">
 						<div class="match-item-info normal-font">
 							<div class="match-time">
 								08: 00
-								<img src="./imgs/match.png" width="25px" height="25px" />
+
+								<img src="./main/imgs/match.png" width="25px" height="25px" />
 							</div>
 							<div>NBA常规赛</div>
 						</div>
 						<div class="match-item-teams">
 							<div>
 								<span>
-									<img src="./imgs/team1.png" width="25px" height="25px" /> 马刺
+									<img src="./main/imgs/team1.png" width="25px" height="25px" /> 马刺
 								</span>
 								<span>-</span>
 							</div>
 							<div>
 								<span>
-									<img src="./imgs/team2.png" width="25px" height="25px" /> 火箭
+									<img src="./main/imgs/team2.png" width="25px" height="25px" /> 火箭
 								</span>
 								<span>-</span>
 							</div>
@@ -162,25 +167,25 @@
 						</div>
 					</div>
 				</a>
-				<a href="./detail.html">
+				<a href="./detail.php">
 					<div class="match-item">
 						<div class="match-item-info normal-font">
 							<div class="match-time">
 								08: 00
-								<img src="./imgs/match.png" width="25px" height="25px" />
+								<img src="./main/imgs/match.png" width="25px" height="25px" />
 							</div>
 							<div>NBA常规赛</div>
 						</div>
 						<div class="match-item-teams">
 							<div>
 								<span>
-									<img src="./imgs/team1.png" width="25px" height="25px" /> 马刺
+									<img src="./main/imgs/team1.png" width="25px" height="25px" /> 马刺
 								</span>
 								<span>-</span>
 							</div>
 							<div>
 								<span>
-									<img src="./imgs/team2.png" width="25px" height="25px" /> 火箭
+									<img src="./main/imgs/team2.png" width="25px" height="25px" /> 火箭
 								</span>
 								<span>-</span>
 							</div>
@@ -190,25 +195,25 @@
 						</div>
 					</div>
 				</a>
-				<a href="./detail.html">
+				<a href="./detail.php">
 					<div class="match-item">
 						<div class="match-item-info normal-font">
 							<div class="match-time">
 								08: 00
-								<img src="./imgs/match.png" width="25px" height="25px" />
+								<img src="./main/imgs/match.png" width="25px" height="25px" />
 							</div>
 							<div>NBA常规赛</div>
 						</div>
 						<div class="match-item-teams">
 							<div>
 								<span>
-									<img src="./imgs/team1.png" width="25px" height="25px" /> 马刺
+									<img src="./main/imgs/team1.png" width="25px" height="25px" /> 马刺
 								</span>
 								<span>-</span>
 							</div>
 							<div>
 								<span>
-									<img src="./imgs/team2.png" width="25px" height="25px" /> 火箭
+									<img src="./main/imgs/team2.png" width="25px" height="25px" /> 火箭
 								</span>
 								<span>-</span>
 							</div>
@@ -218,25 +223,25 @@
 						</div>
 					</div>
 				</a>
-				<a href="./detail.html">
+				<a href="./detail.php">
 					<div class="match-item">
 						<div class="match-item-info normal-font">
 							<div class="match-time">
 								08: 00
-								<img src="./imgs/match.png" width="25px" height="25px" />
+								<img src="./main/imgs/match.png" width="25px" height="25px" />
 							</div>
 							<div>NBA常规赛</div>
 						</div>
 						<div class="match-item-teams">
 							<div>
 								<span>
-									<img src="./imgs/team1.png" width="25px" height="25px" /> 马刺
+									<img src="./main/imgs/team1.png" width="25px" height="25px" /> 马刺
 								</span>
 								<span>-</span>
 							</div>
 							<div>
 								<span>
-									<img src="./imgs/team2.png" width="25px" height="25px" /> 火箭
+									<img src="./main/imgs/team2.png" width="25px" height="25px" /> 火箭
 								</span>
 								<span>-</span>
 							</div>

@@ -4,17 +4,18 @@
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Sinwa图片直播 - 登录</title>
+	<title>hsky图片直播 - 登录</title>
+    <base href="http://ws.local.com/">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<meta content="yes" name="apple-mobile-web-app-capable" />
 	<meta content="black" name="apple-mobile-web-app-status-bar-style" />
 	<meta content="telephone=no" name="format-detection" />
 	<meta content="email=no" name="format-detection" />
-	<link rel="stylesheet" type="text/css" href="./assert/css/reset.css" />
-	<link rel="stylesheet" type="text/css" href="./assert/css/main.css" />
-	<link rel="stylesheet" href="./assert/iconfont/iconfont.css">
-	<link rel="shortcut icon" href="./favicon.ico">
-	<script src="./js/jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="./login/css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="./login/css/main.css" />
+	<link rel="stylesheet" href="./login/css/iconfont/iconfont.css">
+	<link rel="shortcut icon" href="./login/favicon.ico">
+	<script src="./login/js/jquery-3.3.1.min.js"></script>
 	<style>
 		body {
 			background: #eee;

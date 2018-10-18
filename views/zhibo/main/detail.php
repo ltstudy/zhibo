@@ -4,17 +4,18 @@
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Sinwa图片直播 - 详情</title>
+	<title>hsky图片直播 - 详情</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<meta content="yes" name="apple-mobile-web-app-capable" />
 	<meta content="black" name="apple-mobile-web-app-status-bar-style" />
 	<meta content="telephone=no" name="format-detection" />
+    <base href="http://ws.local.com/">
 	<meta content="email=no" name="format-detection" />
-	<link rel="stylesheet" type="text/css" href="./assert/css/reset.css" />
-	<link rel="stylesheet" type="text/css" href="./assert/css/main.css" />
-	<link rel="stylesheet" href="./assert/iconfont/iconfont.css">
-	<link rel="shortcut icon" href="./favicon.ico">
-	<script src="./assert/js/jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="./login/css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="./login/css/main.css" />
+	<link rel="stylesheet" href="./login/css/iconfont/iconfont.css">
+	<link rel="shortcut icon" href="./login/favicon.ico">
+	<script src="./login/js/jquery-3.3.1.min.js"></script>
 	<style>
 		/*详情界面保持上部分静止，下面滚动; 同样利用flex布局 poster自然高度， tab-nav自然高度， tab-block填满剩余部分*/
 		.poster {
@@ -239,21 +240,23 @@
 		<i class="icon iconfont icon-fanhui back" id="back"></i>
 		马刺vs火箭赛况
 		<!--用户处于登录状态时，将该按钮隐藏-->
-		<a href="./login.html">
+		<a href="../login/login.php">
 			<i class="icon iconfont icon-wode my"></i>
 		</a>
 	</header>
+    <base href="http://ws.local.com/">
 	<div class="content">
 		<div class="poster">
-			<img src="./imgs/match-poster.png" class="post-img" />
+			<img src="./main/imgs/match-poster.png" class="post-img" />
+
 			<div class="poster-title">
 				<div class="poster-title-team">
-					<img src="./imgs/team1.png" width="40px" height="40px">
+					<img src="./main/imgs/team1.png" width="40px" height="40px">
 					<div>马刺(50)</div>
 				</div>
 				<div>VS</div>
 				<div class="poster-title-team">
-					<img src="./imgs/team2.png" width="40px" height="40px">
+					<img src="./main/imgs/team2.png" width="40px" height="40px">
 					<div>火箭(52)</div>
 				</div>
 			</div>
@@ -272,7 +275,7 @@
 					<div class="frame-item">
 						<span class="frame-dot"></span>
 						<div class="frame-item-author">
-							<img src="./imgs/team1.png" width="20px" height="20px" /> 马刺
+							<img src="./main/imgs/team1.png" width="20px" height="20px" /> 马刺
 						</div>
 						<p>08:44 暂停 常规暂停</p>
 						<p>08:44 帕克 犯规 个人犯规 2次</p>
@@ -293,11 +296,11 @@
 					<div class="frame-item">
 						<span class="frame-dot"></span>
 						<div class="frame-item-author">
-							<img src="./imgs/team2.png" width="20px" height="20px" /> 火箭
+							<img src="./main/imgs/team2.png" width="20px" height="20px" /> 火箭
 						</div>
 						<p>比赛如火如荼~~~</p>
 						<p>
-							<img src="./imgs/1.png" width="40%" />
+							<img src="./main/imgs/1.png" width="40%" />
 						</p>
 					</div>
 					<div class="frame-item">
@@ -366,7 +369,7 @@
 			<div id="match-data" class="hidden match-data">
 				<div class="match-score">
 					<div class="match-team-info">
-						<img src="./imgs/team1.png" width="40px" height="40px" />
+						<img src="./main/imgs/team1.png" width="40px" height="40px" />
 						<div>火箭</div>
 					</div>
 					<div class="match-score-result">
@@ -379,7 +382,7 @@
 						<div style="font-size: .8rem; color:#888;">NBA常规赛</div>
 					</div>
 					<div class="match-team-info">
-						<img src="./imgs/team2.png" width="40px" height="40px" />
+						<img src="./main/imgs/team2.png" width="40px" height="40px" />
 						<div>雷霆</div>
 					</div>
 				</div>
@@ -394,7 +397,7 @@
 						<span>总分</span>
 					</div>
 					<div class="match-report-row">
-						<span><img src="./imgs/team1.png" width="30px" height="30px" /></span>
+						<span><img src="./main/imgs/team1.png" width="30px" height="30px" /></span>
 						<span>20</span>
 						<span>-</span>
 						<span>-</span>
@@ -403,7 +406,7 @@
 					</div>
 					<div class="match-report-row">
 						<span>
-							<img src="./imgs/team2.png" width="30px" height="30px" />
+							<img src="./main/imgs/team2.png" width="30px" height="30px" />
 						</span>
 						<span>15</span>
 						<span>-</span>
@@ -416,7 +419,7 @@
 					<h3 class="sub-title">本场最佳</h3>
 					<div>
 						<div class="mvp-player">
-							<img src="./imgs/pa.png" width="50px;" height="40px" />
+							<img src="./main/imgs/pa.png" width="50px;" height="40px" />
 							<div class="mvp-player-info">
 								<div>9</div>
 								<div>帕克</div>
@@ -432,12 +435,12 @@
 								<div>13</div>
 								<div>哈登</div>
 							</div>
-							<img src="./imgs/ha.png" width="50px;" height="40px" />
+							<img src="./main/imgs/ha.png" width="50px;" height="40px" />
 						</div>
 					</div>
 					<div>
 						<div class="mvp-player">
-							<img src="./imgs/pa.png" width="50px;" height="40px" />
+							<img src="./main/imgs/pa.png" width="50px;" height="40px" />
 							<div class="mvp-player-info">
 								<div>9</div>
 								<div>帕克</div>
@@ -449,7 +452,7 @@
 								<div>3</div>
 								<div>保罗</div>
 							</div>
-							<img src="./imgs/bao.png" width="50px;" height="40px" />
+							<img src="./main/imgs/bao.png" width="50px;" height="40px" />
 						</div>
 					</div>
 				</div>
