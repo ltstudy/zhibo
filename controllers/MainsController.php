@@ -12,12 +12,16 @@ Class MainsController extends Controller {
      */
     public function actionIndex()
     {
-        return $this->renderPartial("@app/views/zhibo/main/detail");
+        return $this->renderPartial("@app/views/zhibo/main/index");
     }
 
-    public function actionServer()
+    /**
+     * 直播页面
+     * @return [type] [deception]
+     */
+    public function actionDetail()
     {
-        echo 1111;
+        return $this->renderPartial("@app/views/zhibo/main/detail");
     }
 
 
