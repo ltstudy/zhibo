@@ -78,7 +78,7 @@
 		登录
 	</header>
 	<form class="login" id="form">
-		<h2>singwa体育赛事图文直播平台</h2>
+		<h2>hsky体育赛事图文直播平台</h2>
 		<div class="login-item">
 			<input type="text" placeholder="手机号" class="phone-num" name="phone_num"/>
 			<button type="button" id="authCodeBtn">验证码</button>
